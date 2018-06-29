@@ -29,7 +29,7 @@
 	
 	cell = canvas.find('td');
 	
-	
+	// function  for changing cell color on click
 	cell.click(function() {
 		
 		console.log("changeColor is running!");
@@ -39,13 +39,14 @@
 	});
 	
 }
+// When size is submitted by the user, call makeGrid()
 
 
 var submitQuery;
 
 submitQuery = $('input[type="submit"]')
 
-submitQuery.click(function(event) {
-  event.preventDefault();
-  makeGrid();
+	submitQuery.click(function(event) {
+ 		 event.preventDefault();
+  	makeGrid();
 });
