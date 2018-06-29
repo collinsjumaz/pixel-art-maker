@@ -1,5 +1,5 @@
-#Project Name: Pixel Art Maker Project
-##Author: Collins Juma
+## Project Name: Pixel Art Maker Project
+## Author: Collins Juma
 
 
 ## Description 
